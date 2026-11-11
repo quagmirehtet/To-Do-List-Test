@@ -1,0 +1,97 @@
+#Example Output in console
+--- To-Do List Menu ---
+1. Add Task
+2. View Tasks
+3. Remove Task
+4. Exit
+Enter your choice: 1
+
+Enter task description: Buy groceries
+Task added!
+
+--- To-Do List Menu ---
+1. Add Task
+2. View Tasks
+3. Remove Task
+4. Exit
+Enter your choice: 1
+
+Enter task description: Finish report
+Task added!
+
+--- To-Do List Menu ---
+1. Add Task
+2. View Tasks
+3. Remove Task
+4. Exit
+Enter your choice: 2
+
+Your tasks:
+1. Buy groceries
+2. Finish report
+
+--- To-Do List Menu ---
+1. Add Task
+2. View Tasks
+3. Remove Task
+4. Exit
+Enter your choice: 3
+
+Enter the task number to remove: 1
+Task removed!
+
+--- To-Do List Menu ---
+1. Add Task
+2. View Tasks
+3. Remove Task
+4. Exit
+Enter your choice: 2
+
+============================
+Main Module
+Service Module 
+Model Module
+============================
+
+Your tasks:
+1. Finish report
+
+--- To-Do List Menu ---
+1. Add Task
+2. View Tasks
+3. Remove Task
+4. Exit
+Enter your choice: 4
+
+//				boolean isRemoved = false;
+//
+//				Iterator<ToDoListModel> it = list.iterator();
+//
+//				int currentNum = 1;
+//				while (it.hasNext()) {
+//
+//					it.next();
+//
+//					if (removeNum == currentNum) {
+//
+//						it.remove();
+//
+//						isRemoved = true;
+//
+//						break;
+//
+//					}
+//
+//					currentNum++;
+//
+//				}
+//				if (isRemoved) {
+//					System.out.println("Task removed!");
+//				}
+//				
+//				
+//
+//				else {
+//
+//					System.out.println("Invalid Task Remove Number.");
+//				}
